@@ -132,10 +132,10 @@ table {
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 :root{
-    --base-color: #043A61;
-    --second-color: #2B597A;
-    --text-color: #fff;
-    --footer-color: #483737;
+    --base-color: #fff;
+    --second-color: #469300;
+    --text-color: #000;
+    --footer-color: #fff;
 }
 
 body {
