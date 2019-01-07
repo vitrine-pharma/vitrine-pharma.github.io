@@ -154,7 +154,7 @@ header {
 }
 main {
     padding: 2rem;
-    height: calc(100vh - 176px);
+    min-height: calc(100vh - 176px);
     display: flex;
     flex-direction: column;
     //justify-content: space-between;
@@ -199,10 +199,6 @@ h2 {
 footer {
     background: var(--footer-color);
     padding: 2rem;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }
 footer > * {
     max-width: 420px;
