@@ -192,11 +192,15 @@ h2 {
     width: 24px;
     height: 24px;
 }
+.img--round img path{
+    fill: #fff;
+}
 .flex-h-center {
     display: flex;
     align-items: center;
 }
 footer {
+    border-top: 1px solid var(--second-color);
     background: var(--footer-color);
     padding: 2rem;
 }
